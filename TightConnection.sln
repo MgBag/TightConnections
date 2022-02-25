@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TightConnection", "TightConnection\TightConnection.vcxproj", "{B84E66D6-3B5B-43AD-A391-74CB7EDFBB47}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Containers", "Containers\Containers.vcxproj", "{9C6A297A-F4E4-49A6-80F9-A11418FC766F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B84E66D6-3B5B-43AD-A391-74CB7EDFBB47}.Release|x64.Build.0 = Release|x64
 		{B84E66D6-3B5B-43AD-A391-74CB7EDFBB47}.Release|x86.ActiveCfg = Release|Win32
 		{B84E66D6-3B5B-43AD-A391-74CB7EDFBB47}.Release|x86.Build.0 = Release|Win32
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Debug|x64.ActiveCfg = Debug|x64
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Debug|x64.Build.0 = Debug|x64
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Debug|x86.Build.0 = Debug|Win32
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Release|x64.ActiveCfg = Release|x64
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Release|x64.Build.0 = Release|x64
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Release|x86.ActiveCfg = Release|Win32
+		{9C6A297A-F4E4-49A6-80F9-A11418FC766F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

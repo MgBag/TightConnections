@@ -7,11 +7,11 @@ namespace tc
 	{
 	public:
 		// TODO: Rule of 5 (6)
-		// TODO: Iterator types
 		// TODO: Write allocator?
 		
 		Vector();
-		~Vector();
+		Vector(size_t capacity);
+		virtual ~Vector();
 
 		// Constructor using the curely brackets 
 		// Consturctor that sets the capacity 
@@ -20,7 +20,7 @@ namespace tc
 		size_t Size();
 		
 		void PushBack(T& item);
-		T PopBack();
+		void PopBack();
 
 		// Start
 		// End
@@ -28,12 +28,24 @@ namespace tc
 		// REnd
 
 		// Operators 
+		T& operator[](const size_t pos);
 
-		
+		inline size_t Capacity() const
+		{
+			return m_capacity;
+		}
 
+		void Resize(size_t size);
+		void Reserve(size_t size);
+
+		void PushBack(const T& item);
+		// push_back variadic args 
 
 	private:
-		// some resize func
-		// The actual pointer to internal storage 
+		T* m_data;
+		size_t m_capacity;
+		size_t m_size;
+
+		
 	};
 }
